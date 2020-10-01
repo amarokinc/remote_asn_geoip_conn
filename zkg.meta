@@ -1,0 +1,6 @@
+[package]
+description = Adds ASN and GeoIP data directly to conn.log for the REMOTE connection. The script checks the orig and resp host fields to determine which one is not defined as part of the local IP ranges and subsequently performs a lookup on the MaxMind ASN and GeoIP databases.
+credits = Michael Portera @mportatoes
+tags = asn, geoip, conn, remote
+version = 1.0
+script_dir = zeek
